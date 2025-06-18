@@ -1,0 +1,43 @@
+.slider{
+
+  background-color: rgba(192, 229, 230, 0.957);
+  color: white;
+  width: 400px;
+  top: 25px;
+  left: 25px;
+  bottom: 25px;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  border-radius: 30px;
+  flex-direction: column;
+      .links{
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        a{   color: rgb(52, 9, 92);
+        cursor: pointer;
+        font-size: 40px;
+}
+     
+       
+      }  button{
+
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+}

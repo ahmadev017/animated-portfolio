@@ -1,0 +1,36 @@
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #0c0c1d;
+  color: lightgray;
+  text-decoration: none;
+  font-family: sans-serif;
+  
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+
+section{
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+body {
+  overflow: auto;       /* or scroll */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;         /* Chrome, Safari */
+}
